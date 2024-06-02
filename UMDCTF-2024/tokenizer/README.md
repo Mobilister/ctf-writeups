@@ -7,6 +7,6 @@
  
  ``` python3 model.py astronomer/Llama-3-8B-Instruct-GPTQ-8-Bit ```
  
- The tokenizer is the same for chatGPT tough
+ The tokenizer is the same for chatGPT though
  
  
