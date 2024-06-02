@@ -3,7 +3,8 @@
 Bug: Buffer overrun 
 Offset: 10 
 
-Is says that canary is found but I couldn't see any checks for canary bytes. 
+Is says that canary is found but I couldn't see any checks for canary bytes in the main program.  
+That is because libc is statically linked and uses canaries..  
 
 Played around with different solution. Wanted to try to use mprotect since it was available but it's really no need for it because it is possible to write to .bss anyway. PIE is not activated and the binary is statically linked so plenty of gadgets to use. 
 
