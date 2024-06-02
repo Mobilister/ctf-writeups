@@ -15,15 +15,14 @@ wget https://github.com/ForwardCom/libraries/raw/8cbc6588f3fbd67eb149bb398535e28
 The location of the flag is known from the Dockerfile configuration "/flag" 
 
 Create the binary to read the file and print its content   
-- open
-- fread
-- prinft 
+- open file 
+- fread to a buffer
+- prinft from the buffer 
 
 ```
 extern _printf:   function reguse=0xF,0          // write formatted string to stdout
 extern _fopen:    function reguse=0xF,0          // open a file
 extern _fread:    function reguse=0xF,0          // read from a file
-extern _fclose:   function reguse=0xF,0          // close a file
 
 const section read ip
 filename:         int8 "/flag", 0                // filename to open
