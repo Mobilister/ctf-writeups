@@ -32,7 +32,6 @@
 
 [Static](BYUCTF-2024/stats/README.md)
 
-<<<<<<< HEAD
 ## GPNCTF-2024
 
 [Future for pwning 1](GPNCTF-2024/future-of-pwning-1/README.md)
@@ -42,17 +41,7 @@
 [never_gonna_give_you_ub](GPNCTF-2024/never_gonna_give_you_ub/README.md)
 
 [Todo](GPNCTF-2024/todo/README.md)
-=======
-## KITCTF-2024
 
-[Future for pwning 1](KITCTF-2024/future-of-pwning-1/README.md)
-
-[Inspect_element](KITCTF-2024/inspect_element/README.md)
-
-[never_gonna_give_you_ub](KITCTF-2024/never_gonna_give_you_ub/README.md)
-
-[Todo](KITCTF-2024/todo/README.md)
->>>>>>> d144c9c (# Det här är en kombination av 2 incheckningar.)
 
 
 
