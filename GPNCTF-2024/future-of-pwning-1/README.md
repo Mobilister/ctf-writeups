@@ -4,6 +4,8 @@ Understand ForwardCom language... Not very intutive!
 
 There are a few example using libc.li functions. The libc functions are however very limited as you can see here:
 
+https://github.com/ForwardCom/code-examples
+
 https://github.com/ForwardCom/libraries/blob/8cbc6588f3fbd67eb149bb398535e285263f3bd8/README.md 
 
 Get the libc.li library from the same repository 
